@@ -1,2 +1,2 @@
 # Litigade-Site
-Website with React - Typescript
+Example website with React - Typescript
