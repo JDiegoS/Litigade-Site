@@ -1,0 +1,120 @@
+
+
+.Home {
+  width: 100%;
+  height: 823px;
+  background-image: url(images/cover.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  padding-left: 400px;
+}
+
+.navbar ul {
+  padding-left: 700px;
+  text-align: center;
+  display: flex;
+}
+
+
+.navbar li {
+  font-size: 14px;
+  margin: 0 20px;
+  line-height: 55px;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #737373;
+}
+
+.home-content {
+  width: 60%;
+  height: 75%;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.motto {
+  font-size:58px;
+  color: #252B42;
+  font-weight: bolder;
+}
+
+.subtext {
+  font-size:20px;
+  color: #737373;
+}
+
+.item1{
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+.item1{
+  width: 80%
+}
+
+.hBtn1 {
+  font-size: 14px;
+  background-color: #784F33;
+  border-radius: 25px;
+  color: white;
+  height: 48px;
+  width: 182px;
+  margin-right: 10px;
+  border: none;
+  font-weight: bolder;
+}
+
+.hBtn2{
+  font-size: 14px;
+  background-color: transparent;
+  border-radius: 25px;
+  color: #784F33;
+  height: 48px;
+  width: 182px;
+  border-color: #784F33;
+  font-weight: bolder;
+}
+
+.item2{
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  color: #252B42;
+  
+}
+
+.item2 h2{
+  text-align: center;
+  
+}
+
+.home-form{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input, select{
+  font-size:14px;
+  color: #737373;
+  background-color:#F9F9F9;
+  width: 245px;
+  height: 50px;
+  border-radius: 5px;
+  border-color: #BDBDBD;
+}
+
+.submitBtn{
+  background-color: #295C7A;
+  margin-top: 40px;
+  color: #FFFFFF;
+}
